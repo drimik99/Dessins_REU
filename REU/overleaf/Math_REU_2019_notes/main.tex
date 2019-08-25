@@ -954,7 +954,7 @@ A \newword{universal cover} is a covering space that is simply connected. Note t
 
 \mainpoint{Let \topspace{X} be a topological space. $X$ has a universal cover if it is \emph{connected, locally-path connected, and semi-locally simply connected}.}
 
-\subsection{Semi-Locally Simply Connected}
+\subsection{Semi-Locally Simply Connected}\footnote{Thanks to Zach}
 A topological space $X$ is semi-locally simply connected if for all $p\in X$, there exists a neighborhood $U$ of $p$ such that every loop in $U$ can be contracted to a single point in $X$.
 \subsubsection{Examples and non-examples}
 Most well-behaved topological spaces are semi-locally simply connected. The standard counterexample is the Hawaiian earring, which consists of the union of all circles in $\mathbb{R}^2$ that are centered at $(\frac{1}{n}, 0)$ with radius $\frac{1}{n}$ for each $n\in\mathbb{N},$ with the subspace topology from the Euclidean topology on $\mathbb{R}^2.$
@@ -970,7 +970,7 @@ Note the difference between semi-locally simply connected and locally simply con
 
 This space is semi-locally simply connected but not locally simply connected, since every loop in the space can be continuously deformed to the point $(0, 0, 1)$, but in all neighborhoods of $(0, 0, 0)$ contain in the ball with radius $\frac{1}{2}$ around $(0, 0, 0),$ there is a loop in the neighborhood that cannot be deformed within the neighborhood, since it can only be deformed to the point $(0, 0, 1).$
 
-\subsection{Locally Path Connected}
+\subsection{Locally Path Connected}\footnote{Thanks to Zach}
 A space $X$ is locally path connected if, for all $x\in X$, for all neighborhoods $U$ of $x$, there exists a neighborhood $V\subset U$ of $x$.
 \subsubsection{Examples and nonexamples}
 Note that the Hawaiian Earring is locally path connected and connected, but not semi-locally simply connected. The space $[-2, -1]\cup [1, 2]$ is locally path connected and semi-locally simply connected, but not connected. The comb space, which is $\{(x, 0) |x\in [0, 1]\}\cup \cup_{n\in \mathbb{N}} \{(\frac{1}{n}, y)|y\in [0, 1]\},$ is connected and semi-locally simply connected, but not locally path connected. Near $(0, \frac{1}{2})$, some neighborhoods contain no smaller, path connected neighborhoods.
@@ -1047,7 +1047,7 @@ Let $f: \RR \to \RR$ be differentiable.
 \end{tabular}
 \end{center}
 
-The third statement arises by the statement of \textbf{Liouville's theorem}, which states that every bounded \emph{entire function} is constant. This is proved in \textbf{TODO}. Furthermore, if $f$ is differentiable at $z_0 \in \CC$, then $f$ is said to be analytic on a \nghd around $z_0$.
+The third statement arises by the statement of \textbf{Liouville's theorem}, which states that every bounded \emph{entire function} is constant. Furthermore, if $f$ is differentiable at $z_0 \in \CC$, then $f$ is said to be analytic on a \nghd around $z_0$.
 
 \section{Notes on Chapter 1: From Complex Analysis to Riemann Surfaces} 
 Notes mainly from "Riemann surfaces and Algebraic Curves" \cite{riemann_surfaces_algebraic_curves}.
@@ -1534,6 +1534,8 @@ There is another perspective to this: two permutations $\langle \alpha,\beta \ra
 This is exactly the Dessin d'enfant but viewed from another angle. Hence, Dessins correspond bijectlvely to the data of two permutations acting transitively on a finite set and to Belyi maps as seen from before.
 
 \section{Dessins in the case of trees + Shabat polynomials}
+Notes from \cite{dessin_fuchsian}.
+
 When a Dessin is a tree, we have that there is one face $f=1$ and so by the Euler characteristic, $v=e+1$. Given by Euler's formula for $v-e+f=2-2g$, we have that $g=0$ so the covering surface is $\PP$. With only one face as the preimage of $\infty$ based on def of Dessin (the tree here), we can let $\infty$ be that preimage itself. Hence, we have at most 2 critical values (we have a \emph{Shabat polynomial}). Then note that we had rational functions as the Belyi map by working on $\PP$ and Belyi's theorem and now by allowing the face be placed at $\infty$, we can write the corresponding \emph{Belyi map as a polynomial}.
 
 The particularly interesting relationship that will be explored is that 
