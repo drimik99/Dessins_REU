@@ -16,4 +16,4 @@ These notes were created for my understanding of certain concepts during my Math
 8. Hypergeometric functions, Fuchsian ODEs, monodromy representation
 9. Fuchsian and Dessins relationship
 
-Note that some of the notes tie in between sections.
+There may be some overlap between sections as well.
